@@ -1,0 +1,24 @@
+Source: cozy-coclyco
+Section: devel
+Priority: extra
+Maintainer: aeris <aeris@cozycloud.cc>
+Build-Depends: debhelper (>= 10), dh-python,
+	python3-all, python3-setuptools, python3-pkg-resources,
+	python3-openssl, python3-cryptography,
+	python3-pyasn1, python3-pyasn1-modules,
+	python3-acme, python3-requests,
+Standards-Version: 3.9.8
+Homepage: https://github.com/cozy/cozy-coclyco
+Vcs-Browser: https://github.com/cozy/cozy-coclyco
+Vcs-Git: https://github.com/cozy/cozy-coclyco
+X-Python3-Version: >= 3.2
+Testsuite: autopkgtest-pkg-python
+
+Package: cozy-coclyco
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Description: Cozy: Simple, Versatile, Yours
+ Cozy (https://cozy.io) is a platform that brings all your web services
+ in the same private space.
+ .
+ This package installs tools to manage instances.
