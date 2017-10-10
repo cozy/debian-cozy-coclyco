@@ -12,3 +12,6 @@ generate-sources:
 
 %:
 	dh $@ --with python3 --buildsystem=pybuild
+
+override_dh_clean:
+	rm -rf tmp dist *.egg-info

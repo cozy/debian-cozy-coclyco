@@ -1,3 +1,3 @@
 compression = xz
 compression-level = 9
-extend-diff-ignore = "(^(tmp|dist)/|\.egg-info/|\.iml$)"
+extend-diff-ignore = "\.iml$"
