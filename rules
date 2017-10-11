@@ -1,17 +1,10 @@
 #! /usr/bin/make -f
 #export DH_VERBOSE = 1
 export PYBUILD_NAME = cozy-coclyco
-export DEBIAN_VERSION := $(shell dpkg-parsechangelog -S Version)
-export UPSTREAM_VERSION := $(shell echo $(DEBIAN_VERSION) | awk -F- '{print $$1}')
-
-generate-sources:
-	tar --exclude-vcs --exclude=debian --exclude="*.iml" \
-		--exclude="*.egg-info" --exclude=dist --exclude=__pycache__ \
-		--exclude=tmp --exclude=.pybuild \
-		-C .. -Jcvf ../$(PYBUILD_NAME)_$(UPSTREAM_VERSION).orig.tar.xz $(PYBUILD_NAME)
 
 %:
 	dh $@ --with python3 --buildsystem=pybuild
 
 override_dh_clean:
+	dh_clean
 	rm -rf tmp dist *.egg-info
