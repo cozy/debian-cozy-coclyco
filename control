@@ -7,6 +7,7 @@ Build-Depends: debhelper (>= 9), dh-python,
 	python3-openssl, python3-cryptography,
 	python3-pyasn1, python3-pyasn1-modules,
 	python3-acme, python3-requests,
+	python3-couchdb (>= 1.1), python3-yaml
 Standards-Version: 3.9.8
 Homepage: https://github.com/cozy/cozy-coclyco
 Vcs-Browser: https://github.com/cozy/cozy-coclyco
