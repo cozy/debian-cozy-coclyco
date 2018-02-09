@@ -1,3 +1,9 @@
+cozy-coclyco (0.1.1-1) testing; urgency=medium
+
+  * Fix nginx vhost to fix konnectors
+
+ -- aeris <aeris@cozycloud.cc>  Fri, 09 Feb 2018 18:40:25 +0100
+
 cozy-coclyco (0.1.0-1) testing; urgency=medium
 
   * Initial release
