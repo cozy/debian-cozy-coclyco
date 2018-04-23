@@ -6,8 +6,9 @@ Build-Depends: debhelper (>= 9), dh-python,
 	python3-all, python3-setuptools, python3-pkg-resources,
 	python3-openssl, python3-cryptography,
 	python3-pyasn1, python3-pyasn1-modules,
-	python3-acme, python3-requests,
-	python3-couchdb (>= 1.1), python3-yaml
+	python3-acme (>= 0.20), python3-josepy,
+	python3-requests, python3-yaml,
+	python3-couchdb (>= 1.1)
 Standards-Version: 3.9.8
 Homepage: https://github.com/cozy/cozy-coclyco
 Vcs-Browser: https://github.com/cozy/cozy-coclyco
@@ -18,6 +19,7 @@ Testsuite: autopkgtest-pkg-python
 Package: cozy-coclyco
 Architecture: all
 Depends: ${python3:Depends}, ${misc:Depends}
+	python3-acme (>= 0.20), python3-couchdb (>= 1.1)
 Description: Cozy: Simple, Versatile, Yours
  Cozy (https://cozy.io) is a platform that brings all your web services
  in the same private space.

@@ -1,3 +1,9 @@
+cozy-coclyco (0.2.0-1) testing; urgency=medium
+
+  * Upgrade ACME (acme.jose moved to josepy)
+
+ -- aeris <aeris@cozycloud.cc>  Tue, 10 Apr 2018 15:47:53 +0000
+
 cozy-coclyco (0.1.1-1) testing; urgency=medium
 
   * Fix nginx vhost to fix konnectors
