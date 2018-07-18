@@ -1,8 +1,14 @@
+cozy-coclyco (0.2.2-1) testing; urgency=medium
+
+  * Reactivate backup for new CouchDB layout
+
+ -- aeris <aeris@cozycloud.cc>  Wed, 18 Jul 2018 15:38:03 +0000
+
 cozy-coclyco (0.2.1-1) testing; urgency=medium
 
   * Activate apps registry
 
- -- aeris <aeris@cozycloud.cc>  Fri, 13 Jul 2018 10:57:03 +0000
+ -- aeris <aeris@cozycloud.cc>  Wed, 18 Jul 2018 15:38:00 +0000
 
 cozy-coclyco (0.2.0-1) testing; urgency=medium
 
