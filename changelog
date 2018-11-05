@@ -1,3 +1,9 @@
+cozy-coclyco (0.2.3-1) testing; urgency=medium
+
+  * Migrate collect to home
+
+ -- aeris <aeris@cozycloud.cc>  Mon, 05 Nov 2018 15:43:49 +0100
+
 cozy-coclyco (0.2.2-1) testing; urgency=medium
 
   * Reactivate backup for new CouchDB layout
