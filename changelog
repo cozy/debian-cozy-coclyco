@@ -1,3 +1,9 @@
+cozy-coclyco (0.3.0-1) testing; urgency=medium
+
+  * Handle COZY_ADMIN_PASSPHRASE env variable
+
+ -- aeris <aeris@imirhil.fr>  Mon, 03 Dec 2018 15:14:57 +0000
+
 cozy-coclyco (0.2.3-1) testing; urgency=medium
 
   * Migrate collect to home
