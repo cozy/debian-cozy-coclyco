@@ -1,3 +1,9 @@
+cozy-coclyco (0.4.0-1) testing; urgency=medium
+
+  * Remove onboarding
+
+ -- aeris <aeris@cozycloud.cc>  Mon, 04 Feb 2019 16:15:09 +0100
+
 cozy-coclyco (0.3.0-1) testing; urgency=medium
 
   * Handle COZY_ADMIN_PASSPHRASE env variable
