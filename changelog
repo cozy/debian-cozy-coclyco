@@ -1,3 +1,9 @@
+cozy-coclyco (0.4.1-1) testing; urgency=medium
+
+  * Handle splitted configuration
+
+ -- aeris <aeris@cozycloud.cc>  Fri, 22 Mar 2019 12:06:49 +0100
+
 cozy-coclyco (0.4.0-1) testing; urgency=medium
 
   * Remove onboarding
