@@ -1,3 +1,9 @@
+cozy-coclyco (0.5.0-1) testing; urgency=medium
+
+  * Migrate to ACME v2
+
+ -- aeris <aeris@cozycloud.cc>  Mon, 07 Oct 2019 15:22:44 +0200
+
 cozy-coclyco (0.4.1-1) testing; urgency=medium
 
   * Handle splitted configuration
