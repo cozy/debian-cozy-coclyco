@@ -1,3 +1,9 @@
+cozy-coclyco (0.5.1-1) testing; urgency=medium
+
+  * Export full chain instead of only the first certificate
+
+ -- aeris <aeris@cozycloud.cc>  Thu, 31 Oct 2019 10:21:03 +0100
+
 cozy-coclyco (0.5.0-1) testing; urgency=medium
 
   * Migrate to ACME v2
